@@ -18,7 +18,7 @@ Default destination:
 
 Phone static IPs (router config, not this app): `.11` / `.12` / `.13`.
 
-## Build
+### Build
 
 Open this directory in Android Studio, sync Gradle, then run a flavor, e.g.
 `phoneADebug`, on a physical device.
@@ -29,6 +29,6 @@ Open this directory in Android Studio, sync Gradle, then run a flavor, e.g.
 
 Capture is pinned to **320×240 @ 15 FPS**, lite model, GPU delegate.
 
-## Models
+### Models
 
 Models are downloaded into `app/src/main/assets` by `download_tasks.gradle`.
