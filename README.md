@@ -7,7 +7,7 @@ We host a local network with a laptop's hotspot, and data is sent to, processed 
 ## Display
 The display is a 16x16 LED matrix that is a linkage of 4 8x8 LED Matricies. The power is daisy chained, but each LED panel has a dedicated GPIO output from the ESP32 S3. 
 ## Volumetric Display
-is it gon work???
+Work in progress
 ## BOM
 |material|qty|
 |8x8 P10 LED Matrix|4x|
@@ -15,4 +15,5 @@ is it gon work???
 |ESP 32 S3|1x|
 |Raspberry Pi Pico|1x|
 |A4988|1x|
+|USB C PD|x2|
 
