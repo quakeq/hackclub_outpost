@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pose Sensor</string>
+    <string name="media_pipe">Pose Sensor</string>
+
+    <string name="btn_settings">Settings</string>
+    <string name="btn_stop_streaming">Stop</string>
+    <string name="btn_start_streaming">Start</string>
+    <string name="status_streaming_on">Streaming: ON</string>
+    <string name="status_streaming_off">Streaming: OFF</string>
+    <string name="status_camera_id">Camera: %1$s</string>
+    <string name="status_destination">Dest: %1$s</string>
+    <string name="status_metrics">seq %1$d  |  send %2$.1f FPS  |  inf %3$d ms</string>
+    <string name="settings_title">Sensor Settings</string>
+    <string name="settings_camera_id">Camera ID</string>
+    <string name="settings_host">Laptop host</string>
+    <string name="settings_port">UDP port</string>
+    <string name="settings_ws_port">WebSocket port</string>
+    <string name="settings_transport">Transport</string>
+    <string name="settings_use_binary">Use binary UDP</string>
+    <string name="settings_save">Save</string>
+    <string name="settings_clear_override">Use flavor default</string>
+    <string name="notification_channel_name">Pose stream</string>
+    <string name="notification_title">Pose Sensor streaming</string>
+    <string name="notification_text">Sending landmarks to laptop</string>
+    <string name="battery_opt_title">Disable battery optimization</string>
+    <string name="battery_opt_message">For stable FPS, exclude Pose Sensor from battery optimizations.</string>
+
+    <string-array name="camera_id_options">
+        <item>phone_a</item>
+        <item>phone_b</item>
+        <item>phone_c</item>
+    </string-array>
+
+    <string-array name="transport_options">
+        <item>UDP</item>
+        <item>WebSocket</item>
+    </string-array>
+</resources>
