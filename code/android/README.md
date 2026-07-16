@@ -1,20 +1,7 @@
 # Pose Sensor (Android outpost)
 
 Phones are **sensors only**: capture camera frames, run MediaPipe Pose on-device,
-and stream landmarks (not video) to the laptop over the dedicated POSE-LAN Wi‑Fi.
-
-See [PLANS.md](PLANS.md) for the system architecture.
-
-## Flavors
-
-| Flavor | `camera_id` | Application ID suffix |
-|--------|-------------|------------------------|
-| `phoneA` | `phone_a` | `.phone_a` |
-| `phoneB` | `phone_b` | `.phone_b` |
-| `phoneC` | `phone_c` | `.phone_c` |
-
-Install one flavor per physical phone. Override `camera_id`, host, ports, and
-transport (UDP / WebSocket) in the in-app Settings screen.
+and stream landmarks (not video) to the laptop over the dedicated ELLO Wi‑Fi.
 
 Default destination:
 
@@ -32,7 +19,7 @@ Open this directory in Android Studio, sync Gradle, then run a flavor, e.g.
 ./gradlew :app:assemblePhoneADebug
 ```
 
-Capture is pinned to **640×480 @ 30 FPS**, lite model, GPU delegate (CPU fallback).
+Capture is pinned to **320×240 @ 15 FPS**, lite model, GPU delegate.
 
 ## Models
 
