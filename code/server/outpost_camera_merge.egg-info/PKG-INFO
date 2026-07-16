@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: outpost-camera-merge
+Version: 0.2.0
+Summary: Low-latency MediaPipe landmark validation and ESP32 forwarding node
+Requires-Python: >=3.11
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Provides-Extra: phone
+Requires-Dist: mediapipe>=0.10.0; extra == "phone"
+Requires-Dist: opencv-python>=4.8.0; extra == "phone"
+Provides-Extra: viz
+Requires-Dist: matplotlib>=3.7.0; extra == "viz"
+Provides-Extra: motor
+Requires-Dist: pyserial>=3.5; extra == "motor"
