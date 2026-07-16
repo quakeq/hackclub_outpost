@@ -1,4 +1,4 @@
-# Pose Sensor (Android outpost)
+# Cameras!  
 
 Phones are **sensors only**: capture camera frames, run MediaPipe Pose on-device,
 and stream landmarks (not video) to the laptop over the dedicated ELLO Wi‑Fi.
