@@ -10,6 +10,7 @@ The display is a 16x16 LED matrix that is a linkage of 4 8x8 LED Matricies. The 
 Work in progress
 ## BOM
 |material|qty|
+--------------
 |8x8 P10 LED Matrix|4x|
 |NEMA 17 Stepper Motor|1x|
 |ESP 32 S3|1x|
