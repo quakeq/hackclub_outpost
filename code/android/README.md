@@ -1,5 +1,13 @@
 # Cameras!  
 
+I basically yoinked this from Google's Mediapipe examples and after testing that app on my phone and finding it worked good enough, I then made it send its data over wifi to the laptop with a Cursor agent. AI was used a lot since I have 0 experience with Android development and producing it in under 3 days would be challenging. 
+
+## Why tf we use phones
+
+Going into the hackathon we thought we had cameras. We didn't. Thus, we had to pivot into using android phones since Thomas noticed a library that was popular on normal cameras worked on Android.
+
+## How to use
+
 Phones are **sensors only**: capture camera frames, run MediaPipe Pose on-device,
 and stream landmarks (not video) to the laptop over the dedicated ELLO Wi‑Fi.
 
